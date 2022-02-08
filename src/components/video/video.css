@@ -1,0 +1,70 @@
+.video{
+    margin: 150px 0 auto;
+}
+
+.movies {
+    display: flex;
+    flex-direction: row;
+  }
+    
+  .add-movies {
+    text-align: center;
+  }
+  
+  .add-movies button {
+    font-size: 16px;
+    padding: 8px;
+    margin: 0 10px 30px 10px;
+  }
+  
+  .movie {
+    padding: 10px;
+    max-width: 33.3%;
+  }
+
+  .movie h2{
+      font-size: 16px;
+  }
+
+  .video-intro{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  
+  input[type="submit"] {
+    padding: 5px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    width: 80px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  
+  input[type="submit"]:hover {
+    background-color: #282c34;
+    color: antiquewhite;
+  }
+  
+  
+  .search > input[type="text"]{
+    width: 40%;
+    min-width: 170px;
+  }
+
+
+  input[type="submit"]{
+      background-color: beige;
+  }
+  

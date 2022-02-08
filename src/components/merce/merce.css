@@ -1,0 +1,34 @@
+.merce{
+    margin: 150px 0 auto;
+
+}
+
+.movies {
+    display: flex;
+    flex-direction: row;
+  }
+    
+  .add-movies {
+    text-align: center;
+  }
+  
+  .add-movies button {
+    font-size: 16px;
+    padding: 8px;
+    margin: 0 10px 30px 10px;
+  }
+  
+  .movie {
+    padding: 10px;
+    max-width: 25%;
+  }
+
+  .movie h2{
+      font-size: 16px;
+  }
+
+  .merce-intro{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
